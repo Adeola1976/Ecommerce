@@ -1,0 +1,31 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Week6Task.Database\**" />
+    <Compile Remove="Week6Task.Model\**" />
+    <EmbeddedResource Remove="Week6Task.Database\**" />
+    <EmbeddedResource Remove="Week6Task.Model\**" />
+    <None Remove="Week6Task.Database\**" />
+    <None Remove="Week6Task.Model\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Abstractions" Version="5.0.9" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="5.0.9" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="5.0.9">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="Week6Task.Database\Week6Task.Database.csproj" />
+    <ProjectReference Include="Week6Task.Model\Week6Task.Model.csproj" />
+  </ItemGroup>
+
+</Project>
