@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 namespace Week6Task.Database.Migrations
 {
-    public partial class firstmigration : Migration
+    public partial class Firstmigration : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {

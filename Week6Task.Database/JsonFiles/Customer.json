@@ -285,7 +285,7 @@
             "Supplier": [
               {
                 "id": "611395b00dac7b9b77fb9980",
-                "Productid":  "61130c8bd8772d1da1ae7f5d",
+                "Productid": "61130c8bd8772d1da1ae7f5d",
                 "SupplierName": "Judith",
                 "Phone": "+234 (898) 573-2544",
                 "DateEntered": "2020-11-10T03:06:53 -01:00"
@@ -305,6 +305,6 @@
         "DateEntered": "Fri Dec 01 1989 12:19:39"
       }
     ]
-
   }
+
 ]

@@ -10,8 +10,8 @@ using Week6Task.Database;
 namespace Week6Task.Database.Migrations
 {
     [DbContext(typeof(FWContext))]
-    [Migration("20210811125245_firstmigration")]
-    partial class firstmigration
+    [Migration("20210812175603_Firstmigration")]
+    partial class Firstmigration
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
